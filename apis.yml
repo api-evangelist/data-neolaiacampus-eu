@@ -39,6 +39,8 @@ apis:
       - type: x-ckan-version
         value: '2.10.3'
 common:
+  - type: DomainSecurity
+    url: security/data-neolaiacampus-eu-domain-security.yml
   - type: Website
     url: https://data.neolaiacampus.eu
   - type: Documentation
@@ -51,6 +53,8 @@ common:
     url: finops/data-neolaiacampus-eu-finops.yml
   - type: Review
     url: review.yml
+  - url: https://neolaiacampus.eu/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
